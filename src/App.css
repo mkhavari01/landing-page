@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "0";
+  src: local("0"), url("./fonts/0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "1";
+  src: local("1"), url("./fonts/1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "2";
+  src: local("2"), url("./fonts/2.ttf") format("truetype");
+}
+@font-face {
+  font-family: "3";
+  src: local("3"), url("./fonts/3.ttf") format("truetype");
+}
+@font-face {
+  font-family: "4";
+  src: local("4"), url("./fonts/4.ttf") format("truetype");
+}
+.font0 {
+  font-family: "0" !important;
+}
+.font1 {
+  font-family: "1" !important;
+}
+.font2 {
+  font-family: "2" !important;
+}
+.font3 {
+  font-family: "3" !important;
+}
+.font4 {
+  font-family: "4" !important;
+}
+.font14px {
+  font-size: 14px;
+}
+.font16px {
+  font-size: 16px;
+}
+.font20px {
+  font-size: 20px;
+}
+* {
+  direction: rtl;
+  font-family: "1" !important;
+}
+.border-gray {
+  border: solid 0.5px #b5b3bc !important;
+}
+.font-gray {
+  color: #b5b3bc !important;
+}
+.special-btn:hover {
+  color: black !important;
+}
+.bg-trnasparent {
+  background: transparent !important;
+}
+.curser-pointer {
+  cursor: pointer;
+}
+.color-dark-blue {
+  color: #133780;
+}
+.bg-dark-blue {
+  background-color: #04308e !important;
+}
+.color-light-blue {
+  color: #4e8fc8;
+}
+
+.color-light-gray {
+  color: #8e9599;
+}
+.color-light-blue2 {
+  color: #22b7e9;
+}
+
+.border-color-light-blue {
+  border: 2px solid #66d1ff !important;
+}
+.badge-color-blue {
+  background-color: #66d1ff;
+}
+.text-align-justify {
+  text-align: justify;
+}
+.bg-header {
+  background-image: url("https://www.kardan.ir/_next/image?url=%2Fimages%2Flanding-top-header.png&w=1920&q=75");
+  height: 100vh;
+  /* width: 100vw; */
+  margin-top: -70px;
+  font-size: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 85% 0;
+}
+
+.bg-stepsSection {
+  background-color: rgb(250, 250, 250);
+}
+.bg-header-responsive {
+  background-color: #f3f3f3;
+  color: #868686;
+}
+.btn-header {
+  background: transparent;
+  color: #b5b3bc;
+  border-bottom: solid 0.5px transparent;
+  font: 14px;
+}
+.btn-header:hover {
+  color: gold;
+  border-bottom: solid 0.5px gold;
+  transition: 0.6s;
+}
+.changer {
+  width: 80%;
+}
+.changer div:first-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.changer div:nth-child(2) {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+@media only screen and (min-width: 1670px) {
+  .bg-header {
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .bg-header {
+    /* background-size: cover; */
+    background-position: left 50px;
+    height: 800px;
+    background-image: url("https://www.kardan.ir/_next/image?url=%2Fimages%2Flanding-top-header-mobile.jpg&w=750&q=75");
+  }
+}
+
+.px-7 {
+  padding: 5px 55px 5px 55px !important;
+}
+
+.py-7 {
+  padding: 70px 0px !important;
+}
+
+.line-img {
+  width: 120px;
+}
+
+.badge-costume {
+  padding: 13px 16px !important;
+  border-radius: 10px !important;
+  font-size: 17px !important;
+}
+
+.border-blue-right {
+  border-right: 1px solid #66d1ff;
+}
+
+.form-input-costume {
+  width: 90%;
+  padding: 7px 20px;
+  border-radius: 5px;
+  background-color: #f5f6fc;
+  border: 1px solid #f5f6fc;
+}
+input:focus-visible {
+  outline: unset;
+}
+
+.box-shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.box-padding {
+  padding: 10px 80px;
+}
+
+.box-width {
+  width: 30% !important;
+}
+
+.bg-dark-gray {
+  background-color: #393944 !important;
+}
+.bg-light-gray {
+  background-color: #75757c;
+}
+
+.list-style {
+  list-style: none;
+  font-size: 14px;
+}
+
+.box-footer-padding {
+  padding: 70px 20px;
+}
+li {
+  line-height: 40px !important;
+}
+
+.h-100vh {
+  height: 50vh !important;
+}
+
+.color-stoke {
+  color: #133780;
+}
+.bg-color-stoke {
+  background-color: #133780;
+}
+
+.color-gold {
+  color: #e5b700;
+}
+
+.bg-color-gold{
+  background-color: #e5b700;
+}
+
+.color-house {
+  color: #05a560;
+}
+
+.bg-color-house {
+  background-color: #05a560;
+}
+
+.color-dollar {
+  color: #e53535;
+}
+
+.bg-color-dollar {
+  background-color: #e53535;
+}
+
+.bg-box-year{
+  background-color: #EBF4F7;
+}
+
+.l-height {
+  line-height: 20px !important;
+}
+
+.border-tooltip {
+  border: 1px solid #75757c !important;
+}
+
+.bg-box-year:hover{
+  background-color: #133780;
+  color: white!important;
+}
+
+.w150-px{
+  width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .h-100vh {
+    height: 40vh !important;
+  }
+}
